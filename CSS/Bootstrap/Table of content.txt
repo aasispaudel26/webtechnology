@@ -25,3 +25,5 @@ Button Group
 List Group
 Table
 Pagination and Breadcrum
+Formating
+Checkbox Radio and Range

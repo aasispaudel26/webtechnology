@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row p-4">
+            <!-- Form -->
+            <form>
+
+                <!-- Email -->
+                <div class="col-12 mt-3">
+                    <label for="emailInput" class="form-label">Email</label>
+                    <input type="email" class="form-control form-control-lg" name="email" id="emailInput">
+                </div>
+
+                <!-- TextArea -->
+                <div class="col-12 mt-3">
+                    <label for="textArea" class="form-label">Textarea</label>
+                    <textarea class="form-control" name="textArea" id="textArea" cols="12" rows="4"></textarea>
+                </div>
+
+                <!-- Disabled -->
+                <div class="col-12 mt-3">
+                    <input type="text" class="form-control" placeholder="Text 1" disabled>
+                    <input type="text" class="form-control" value="Text 2" disabled readonly>
+                </div>
+
+                <!-- Readonly -->
+                <div class="col-12 mt-3">
+                    <input type="text" class="form-control" value="Hello" readonly>
+                    <input type="text" class="form-control-plaintext" value="prabesh@gupta.com" readonly>
+                </div>
+
+
+                <!-- File -->
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">File</label>
+                    <input type="file" class="form-control">
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">Files</label>
+                    <input type="file" class="form-control" multiple>
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">File</label>
+                    <input type="file" class="form-control" disabled>
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">File</label>
+                    <input type="file" class="form-control form-control-sm">
+                </div>
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">File</label>
+                    <input type="file" class="form-control form-control-lg">
+                </div>
+
+                <!-- Color Picker -->
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">Color Picker</label>
+                    <input type="color" class=" form-control form-control-color" value="#ffffff">
+                </div>
+
+                <!-- Datalist -->
+
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">Datalist</label>
+                    <input class="form-control" list="datalistOptions">
+                    <datalist id="datalistOptions">
+                        <option value="Nepal">
+                        <option value="America">
+                        <option value="Italy">
+                    </datalist>
+
+                </div>
+
+                <!-- Select -->
+                <div class="col-12 mt-3">
+                    <label for="" class="form-label">Select</label>
+                    <select class="form-select">
+                        <option selected>Pick</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
