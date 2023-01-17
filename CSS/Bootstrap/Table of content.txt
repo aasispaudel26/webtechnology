@@ -27,3 +27,12 @@ Table
 Pagination and Breadcrum
 Formating
 Checkbox Radio and Range
+Input group
+Floating labels
+Form layout
+Validation
+Nav and tabs
+Navbar
+Images
+Iframe
+Border and shadows

@@ -2,14 +2,14 @@
     border: 5px solid pink;
 }
 
-.row {
+/* .row {
     border: 5px solid brown;
-}
+} */
 
-.container-fluid {
+/* .container-fluid {
     margin-top: 5px;
     border: 2px solid blueviolet;
-}
+} */
 
 .box-1 {
     background-color: cadetblue;
@@ -62,4 +62,18 @@
 
 .pink {
     background-color: pink;
+}
+
+.day {
+    height: 600px;
+    background-color: darkmagenta;
+}
+
+.night {
+    height: 500px;
+    background-color: darkgreen;
+}
+
+.border-custom {
+    border: 5px solid gold;
 }

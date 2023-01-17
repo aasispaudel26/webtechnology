@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row p-4">
+            <!-- Floating labels -->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                <label for="email">Email</label>
+            </div>
+
+            <!-- Text Area -->
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="report" id="ta"></textarea>
+                <label for="ta">Report</label>
+            </div>
+
+            <!-- Select -->
+            <div class="form-floating mb-3">
+                <select class="form-select" id="mb">
+                    <option value="default" selected>Select any</option>
+                    <option value="sam">Samsung</option>
+                    <option value="app">Apple</option>
+                    <option value="nok">Nokia</option>
+                    <option value="hua">Huawei</option>
+                </select>
+                <label for="mb">Mobile Devices</label>
+            </div>
+
+            <!-- Readonly -->
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control-plaintext" readonly id="rdt" placeholder="Readonly">
+                <label for="rdt">Readonly</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control-plaintext" readonly id="rdtv" placeholder="Readonly"
+                    value="Information">
+                <label for="rdtv">Readonly</label>
+            </div>
+
+            <!-- Form floating inside input group -->
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <div class="form-floating">
+                    <select class="form-select" id="doll">
+                        <option value="Dollars" selected>0</option>
+                        <option value="ten">10</option>
+                        <option value="hun">100</option>
+                        <option value="tho">1000</option>
+                    </select>
+                    <label for="doll">Dollars</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

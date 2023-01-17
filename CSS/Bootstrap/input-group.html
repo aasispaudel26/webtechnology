@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row p-4">
+
+            <form action="">
+
+                <!-- Text input group -->
+                <div class="input-group mb-3">
+                    <span for="simpleText" class="input-group-text">$</span>
+                    <input type="text" class="form-control" id="simpleText">
+                </div>
+
+                <!-- Reverse input group -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="sT1">
+                    <span for="sT1" class="input-group-text">$</span>
+                </div>
+
+                <!-- Input group with label, text and form-text -->
+                <div class="mb-3">
+                    <label for="sT2">Website url</label>
+                    <div class="input-group">
+                        <span id="sT2" class="input-group-text">$</span>
+                        <input type="text" class="form-control" id="sT2">
+                    </div>
+                    <div class="form-text">Enter your prefered url</div>
+                </div>
+
+                <!-- Two spans -->
+                <div class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" id="st3">
+                    <span class="input-group-text">.00</span>
+                </div>
+
+                <!-- Two inputs -->
+                <div class="input-group mb-3">
+
+                    <input type="text" class="form-control" id="st4" placeholder="email">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="st3" placeholder="password">
+
+                </div>
+
+                <!-- Textarea -->
+                <div class="input-group mb-3 input-group-lg">
+
+                    <span class="input-group-text">Report</span>
+                    <textarea name="textarea" class="form-control"></textarea>
+
+                </div>
+
+                <!-- Checkbox and radios -->
+                <div class="input-group mb-3">
+                    <div class="input-group-text">
+
+                        <input type="checkbox" name="ch" id="ch1" class="form-check-input">
+
+                    </div>
+                    <input type="text" class="form-control" placeholder="Enter age">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-text">
+
+                        <input type="radio" name="rd" id="rd1" class="form-check-input">
+
+                    </div>
+                    <input type="text" class="form-control" placeholder="Chinese">
+                </div>
+
+                <!-- Buttons -->
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-success" type="button">Button</button>
+                    <input type="text" name="st5" id="bttn" class="form-control">
+                </div>
+
+                <!-- buttons with dropdown -->
+                <div class="input-group mb-3">
+                    <button class="btn btn-danger dropdown-toggle " type="button"
+                        data-bs-toggle="dropdown">Dropdown</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Yellow</a></li>
+                        <li><a href="#" class="dropdown-item">Red</a></li>
+                        <li><a href="#" class="dropdown-item">Green</a></li>
+                    </ul>
+                    <input type="text" class="form-control">
+                </div>
+
+                <!-- Select -->
+                <div class="input-group mb-3">
+                    <label for="selection" class="input-group-text">Options</label>
+                    <select name="optionSelect" id="opt" class="form-select">
+                        <option value="a" selected>A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                    </select>
+                </div>
+
+                <!-- File -->
+                <div class="input-group mb-3">
+                    <label for="fileUp" class="input-group-text">Upload</label>
+                    <input type="file" id="fileUp" class="form-control">
+                </div>
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-info" type="button" id="fileUp">LOL</button>
+                    <input type="file" id="fileUp" class="form-control">
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
