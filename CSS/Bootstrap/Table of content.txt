@@ -38,3 +38,6 @@ Iframe
 Border and shadows
 Card
 Card group
+Media object
+Badge
+Progress bar

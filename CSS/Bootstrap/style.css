@@ -77,3 +77,19 @@
 .border-custom {
     border: 5px solid gold;
 }
+
+.custom_progress {
+
+    height: 30px;
+}
+
+.custom_progress .custom_progress_bar {
+
+    width: 80%;
+}
+
+.spinner-border-custom {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}

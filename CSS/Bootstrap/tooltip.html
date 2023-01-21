@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row p-4">
+            <div class="col-sm-6">
+                <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-title="Argentina">FIFA 2022</button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-title="Argentina">FIFA 2022</button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Argentina">FIFA 2022</button>
+            </div>
+
+            <div class="col-md-6">
+                <button type="button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-html="true" data-bs-title="<em>Working</em>">Status</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Boostrap JS CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Tooltip -->
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+</body>
+
+</html>
