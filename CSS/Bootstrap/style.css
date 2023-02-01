@@ -93,3 +93,51 @@
     height: 5rem;
     border-radius: 100%;
 }
+
+.custom_collapse {
+    min-height: 100px;
+}
+
+.custom_collapse .custom_collapse_paragraph {
+    width: 330px;
+}
+
+.custom_slider .carousel-caption {
+
+    top: 50%;
+    left: 50%;
+    right: unset;
+    bottom: unset;
+    transform: translate(-50%, -50%);
+}
+
+.custom_navspy {
+    position: relative;
+    margin-top: 0.5rem;
+    height: 200px;
+    overflow: scroll;
+}
+
+.custom_navspy_v {
+    position: relative;
+    height: 350px;
+    overflow: scroll;
+}
+
+.custom_lgspy {
+    position: relative;
+    height: 180px;
+    overflow: scroll;
+}
+
+#home,
+#contact,
+#pricing,
+#features {
+    min-height: 500px;
+}
+
+.custom_nav_color .navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: red;
+}

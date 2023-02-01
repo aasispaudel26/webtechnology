@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar px-4 bg-body-tertiary mb-3" id="navspy">
+        <a href="#" class="nav-brand text-decoration-none">Prabesh Gupta</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="#navspy1" class="nav-link">First</a>
+            </li>
+            <li class="nav-item">
+                <a href="#navspy2" class="nav-link">Second</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#navspy3" class="dropdown-item">Third</a></li>
+                    <li><a href="#navspy4" class="dropdown-item">Fourth</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                        </hr>
+                    </li>
+                    <li><a href="#navspy5" class="dropdown-item">Fifth</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="scrollspy-example bg-body-tertiary p-3 rounded-2 custom_navspy" data-bs-spy="scroll"
+        data-bs-target="#navspy" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
+        <h3 id="navspy1">First Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos corporis error atque eos delectus nihil cum!
+            Voluptatibus pariatur ratione ducimus voluptates alias, adipisci esse quos repellendus architecto, quod
+            facere magni soluta?</p>
+        <h3 id="navspy2">Second Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nulla nihil perspiciatis! Veritatis repudiandae
+            quos exercitationem veniam ad inventore.</p>
+        <h3 id="navspy3">Third Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse debitis recusandae iste eius autem rerum
+            cupiditate repellendus aut possimus sequi deleniti consectetur magnam, facilis ut molestiae.</p>
+        <h3 id="navspy4">Fourth Heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ipsum illo asperiores quibusdam nulla,
+            fugit voluptates labore, dolorum consequatur laborum ad? Dicta, reprehenderit libero?</p>
+        <h3 id="navspy5">Fifth Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ipsam rerum fugit sapiente quis vitae culpa
+            doloremque consectetur? Ullam laudantium obcaecati beatae deleniti et ipsa velit impedit delectus sint?
+            Similique et veritatis expedita.</p>
+    </div>
+
+    <!-- Vertical Navbar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <nav class="navbar flex-column align-items-stretch p-3" id="navspy-v">
+                    <nav class="nav nav-pills flex-column">
+                        <a href="#navspy-v1" class="nav-link">First</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a href="#navspy-v1-1" class="nav-link ms-3 my-1">Part 1</a>
+                            <a href="#navspy-v1-2" class="nav-link ms-3 my-1">Part 2</a>
+                        </nav>
+                        <a href="#navspy-v2" class="nav-link">Second</a>
+                        <a href="#navspy-v3" class="nav-link">Third</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a href="#navspy-v3-1" class="nav-link ms-3 my-1">Part 1</a>
+                            <a href="#navspy-v3-2" class="nav-link ms-3 my-1">Part 2</a>
+                        </nav>
+                    </nav>
+                </nav>
+            </div>
+            <div class="col-8">
+                <div class="scrollspy-example-2 custom_navspy_v" data-bs-spy="scroll" data-bs-target="#navspy-v"
+                    data-bs-offset="0" tabindex="0" data-bs-smooth-scroll="true">
+                    <div id="navspy-v1">
+                        <h4>First Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error eos totam nam
+                            assumenda
+                            id doloribus voluptate sunt nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Officia nesciunt quis vitae vero accusamus amet soluta repellendus, aliquam fugit.</p>
+                    </div>
+                    <div id="navspy-v1-1">
+                        <h4>Sub Part 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, distinctio enim maiores
+                            laborum
+                            saepe magnam at quis! Fugiat incidunt repellat iure doloribus minus. Lorem ipsum, dolor sit
+                            amet
+                            consectetur adipisicing elit. Nobis delectus nesciunt iusto nostrum, voluptates maiores
+                            rerum ex
+                            qui dolorum aspernatur?</p>
+                    </div>
+                    <div id="navspy-v1-2">
+                        <h4>Sub Part 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, vero hic! Lorem ipsum dolor
+                            sit
+                            amet consectetur, adipisicing elit. Optio obcaecati rem repudiandae in voluptatum.
+                            Necessitatibus ducimus excepturi architecto porro aut vel. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Harum aspernatur necessitatibus sequi libero asperiores!
+                        </p>
+                    </div>
+                    <div id="navspy-v2">
+                        <h4>Second Heading</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium dolorem eveniet
+                            molestias.
+                            Unde sapiente sequi veniam autem quibusdam eos tenetur est neque, repellendus nihil optio
+                            recusandae accusamus possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                            fugit impedit debitis in repellat?</p>
+                    </div>
+                    <div id="navspy-v3">
+                        <h4>Third Heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem hic eveniet fugiat
+                            asperiores
+                            velit repellendus expedita reprehenderit amet. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Officiis iure quidem eius architecto, autem repellat nesciunt qui placeat
+                            recusandae?</p>
+                    </div>
+                    <div id="navspy-v3-1">
+                        <h4>Sub Part 1</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt fugiat inventore dicta
+                            sint
+                            placeat sequi dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit in
+                            debitis, deserunt architecto iure saepe at magnam velit laudantium. Lorem, ipsum dolor sit
+                        </p>
+                    </div>
+                    <div id="navspy-v3-2">
+                        <h4>Sub Part 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, optio architecto dolor
+                            aut
+                            consequatur id illum cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                            voluptas! amet
+                            consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boostrap JS CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

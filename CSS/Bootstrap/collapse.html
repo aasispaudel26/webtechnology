@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row p-4">
+            <!-- Collapse -->
+            <div class="col-sm-12 mb-3">
+                <div>
+                    <a href="#collapsenow" class="btn btn-primary" data-bs-toggle="collapse">Link</a>
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsenow">Button</button>
+                </div>
+                <div class="collapse" id="collapsenow">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum aperiam veniam nobis
+                        optio quisquam ullam? Doloremque assumenda sit aliquam inventore ipsum culpa.</p>
+                </div>
+            </div>
+
+            <!-- Collapse Horizontal -->
+            <div class="col-sm-12 mb-3">
+                <div>
+                    <button type="button" class="btn btn-success" data-bs-toggle="collapse"
+                        data-bs-target="#collapsehorizontal">Horizontal</button>
+                </div>
+                <div class="collapse collapse-horizontal custom_collapse" id="collapsehorizontal">
+                    <p class="custom_collapse_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deleniti non ducimus expedita unde culpa vel eaque qui? Non sequi quidem deleniti consectetur
+                        ducimus, id in officia voluptate illum libero ipsam, temporibus dolor qui facere.</p>
+
+                </div>
+            </div>
+
+            <!-- Multi Collapse -->
+            <div class="col-sm-12">
+                <p>
+                    <button type="button" class="btn btn-success" data-bs-target="#mcOne"
+                        data-bs-toggle="collapse">Login</button>
+                    <button class="btn btn-danger" type="button" data-bs-target="#mcTwo"
+                        data-bs-toggle="collapse">Logout</button>
+                    <a href=".multi-collapse" class="btn btn-warning" data-bs-toggle="collapse">Multi Collapse</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="mcOne">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis cum nobis eaque
+                            vel
+                            ipsam,
+                            quos facere quo iste sit ad recusandae velit praesentium tempora dolore maxime adipisci
+                            ullam.
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="mcTwo">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolor quaerat dicta
+                            voluptatibus
+                            quia nesciunt accusantium modi omnis, minus, rem labore?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boostrap JS CDN link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

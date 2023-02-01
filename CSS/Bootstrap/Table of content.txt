@@ -41,3 +41,13 @@ Card group
 Media object
 Badge
 Progress bar
+Spinners
+Placeholder
+Tooltip
+Popover
+Alerts
+Modal
+Accordion
+Collapse
+Carousel
+Scrollspy
