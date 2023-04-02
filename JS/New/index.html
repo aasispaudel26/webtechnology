@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="compromised();">Don't Click</button><br><br>
+
+    <form>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="pass">Password</label><br>
+        <input type="password" name="pass" id="pass"><br><br>
+
+        <button onclick="credentials();" name="click" id="click">Click</button><br><br>
+    </form>
+
+    <div class="date">
+        <button onclick="show_date();">Date</button>
+        <h3 id="date"></h3>
+    </div>
+
+    <div class="pl">
+        <label for="sell_price">Sell Price</label><br>
+        <input type="text" name="sp" id="sp"><br><br>
+
+        <label for="cost_price">Cost Price</label><br>
+        <input type="text" name="cp" id="cp"><br><br>
+
+        <button onclick="calculate_pl();">Calculate</button>
+        <h4 id="pl"></h4>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
